@@ -64,7 +64,7 @@ mapred streaming \
  -input "$ROUND1_OUTPUT_DIR/part-00000" \
  -output "$ROUND2_OUTPUT_DIR"
 
-echo "Round 1 has finished."
+echo "Round 2 has finished."
 ########################################
 ## Copying output
 [ ! -d $LOCAL_OUTPUT_DIR ] && mkdir -p $LOCAL_OUTPUT_DIR
